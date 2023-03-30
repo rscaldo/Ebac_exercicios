@@ -6,11 +6,11 @@ form.addEventListener("submit", function (e) {
 
 let campoA = document.getElementById("campoA");
 let campoB = document.getElementById("campoB");
-let button = document.getElementById("btn");
+let button1 = document.getElementById("btn");
 let success = document.querySelector(".form-success");
 let formError = document.querySelector(".form-error");
 
-button.addEventListener("click", function () {
+button1.addEventListener("click", function () {
   if (campoA.value < campoB.value) {
     success.style.display = "block";
   } else {
